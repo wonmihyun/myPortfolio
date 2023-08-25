@@ -35,6 +35,7 @@ const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunk
 
 
 function App() {
+
   return (
      <>
      <GlobalStyle/> {/* reset css 사용 */}
