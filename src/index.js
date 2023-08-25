@@ -17,7 +17,7 @@ import VideoDetail from './pages/VideoDetail';
 // 메인 페이지 
 const router = createBrowserRouter([
   {
-    path : '/',
+    path : `${process.env.PUBLIC_URL}`,
     element : <App/>,
     errorElement : <NotFound/>,
     children : [
